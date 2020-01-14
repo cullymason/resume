@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <title>Cully Mason's Resume</title>
-</head>
-<body>
-    <div class=" max-w-5xl pt-6 pb-6 mx-auto px-6 text-gray-800 subpixel-antialiased">
+<template>
+  <div class=" max-w-5xl pt-6 pb-6 mx-auto px-6 text-gray-800 subpixel-antialiased">
         <header class="flex items-center">
             <div class="flex-auto">
                <span class="font-light tracking-wide text-gray-600 text-xl md:text-3xl uppercase">Resume</span>
@@ -50,7 +41,7 @@
                 <ul class="text-gray-800 list-disc list-outside">
                     <li class="mb-1 md:mb-0">Transitioned outsourced IT services into reliable in-house support and development teams</li>
                     <li class="mb-1 md:mb-0">Lead local and remote teams to deliver dependable updates for legacy and current web applications using Jira <span class="text-gray-500 block text-sm md:inline md:text-base">(Scrum, Agile, Extreme Programming)</span></li>
-                    <li class="mb-1 md:mb-0">Unified code repositories in order to leverage automated testing & continuous integration <span class="text-gray-500 block text-sm md:inline md:text-base">(Github/Laravel Forge/Envoyer)</span> </li class="mb-1">
+                    <li class="mb-1 md:mb-0">Unified code repositories in order to leverage automated testing & continuous integration <span class="text-gray-500 block text-sm md:inline md:text-base">(Github/Laravel Forge/Envoyer)</span> </li>
                     <li class="mb-1 md:mb-0">Migrated application infrastructure from on premise to a distributed cloud infrastructure <span class="text-gray-500 block text-sm md:inline md:text-base">(AWS EC2)</span></li>
                     <li class="mb-1 md:mb-0">Centralized databases to a highly reliable, replicated cluster with a redundant backup solution <span class="text-gray-500 block text-sm md:inline md:text-base">(AWS RDS Aurora/ Ottomatik)</span></li>
                     <li class="mb-1 md:mb-0">Designed and deployed Amex credit card processing service <span class="text-gray-500">(Lumen, PHP 7.1, LNMP Stack)</span></li>
@@ -70,7 +61,7 @@
                 <ul class="text-gray-800 list-disc list-outside">
                     <li class="mb-1 md:mb-0">Transitioned outsourced IT services into reliable in-house support and development teams</li>
                     <li class="mb-1 md:mb-0">Lead local and remote teams to deliver dependable updates for legacy and current web applications using Jira <span class="text-gray-500 block text-sm md:inline md:text-base">(Scrum, Agile, Extreme Programming)</span></li>
-                    <li class="mb-1 md:mb-0">Unified code repositories in order to leverage automated testing & continuous integration <span class="text-gray-500 block text-sm md:inline md:text-base">(Github/Laravel Forge/Envoyer)</span> </li class="mb-1">
+                    <li class="mb-1 md:mb-0">Unified code repositories in order to leverage automated testing & continuous integration <span class="text-gray-500 block text-sm md:inline md:text-base">(Github/Laravel Forge/Envoyer)</span> </li>
                     <li class="mb-1 md:mb-0">Migrated application infrastructure from on premise to a distributed cloud infrastructure <span class="text-gray-500 block text-sm md:inline md:text-base">(AWS EC2)</span></li>
                     <li class="mb-1 md:mb-0">Centralized databases to a highly reliable, replicated cluster with a redundant backup solution <span class="text-gray-500 block text-sm md:inline md:text-base">(AWS RDS Aurora/ Ottomatik)</span></li>
                     <li class="mb-1 md:mb-0">Designed and deployed Amex credit card processing service <span class="text-gray-500">(Lumen, PHP 7.1, LNMP Stack)</span></li>
@@ -129,5 +120,17 @@
         </section>
         
     </div>
-</body>
-</html>
+</template>
+
+<script>
+
+
+export default {
+  name: "app",
+  components: {}
+};
+</script>
+
+<style>
+
+</style>
