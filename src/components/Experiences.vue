@@ -10,7 +10,12 @@
                     <span class="text-sm text-gray-600">{{experience.startMonth}} {{experience.startYear}} - {{ experience.isCurrent ? "Present" : experience.endMonth+' '+experience.endYear }}</span>
                 </h3>
                 <ul class="text-gray-800 list-disc list-outside">
-                    <li v-for="responsibility in experience.responsibilities" :key="responsibility" class="mb-1 md:mb-0">{{ responsibility.responsibility}} <ul v-if="responsibility.tags" class="text-gray-500 block text-sm md:inline md:text-base">(<li class="inline" v-for="(tag,index) in responsibility.tags" :key="tag"> {{ tag }}<span v-if="index+1 < responsibility.tags.length">,</span></li>)</ul></li>
+                    <li v-for="responsibility in experience.responsibilities" :key="responsibility" class="mb-2">
+                        <span>{{ responsibility.responsibility}} </span>
+                        <ul v-if="responsibility.tags" class=" block">
+                            <li class="inline text-gray-600 font-base tracking-wide uppercase text-xs bg-gray-200 mr-3 rounded px-2" v-for="tag in responsibility.tags" :key="tag">{{ tag }}</li>
+                        </ul>
+                    </li>
 
                 </ul>
             </article>
