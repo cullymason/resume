@@ -1,0 +1,19 @@
+{
+    "schools": [
+        {
+            "name": "Southern Polytechnic and State University",
+            "degree": "Computer Science",
+            "startYear": 2009,
+            "endYear": 2013,
+            "disclaimer": "Completed credits towards a degree in Computer Science",
+            "accomplishments": [
+                "Computer Science I &amp; II",
+                "Programming for Engineers",
+                "Programming for Engineers",
+                "Introduction to Databases",
+                "Object Oriented Programming",
+                "Programming Principles I"
+            ]
+        }
+    ]
+}
