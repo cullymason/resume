@@ -4,13 +4,7 @@
             <div class="flex-auto">
                <span class="font-light tracking-wide text-gray-600 text-xl md:text-3xl uppercase">Resume</span>
             </div>
-            <div class="text-right">
-                <p class="font-bold mb-1 text-gray-900">Cullison Mason</p>
-                <address class="not-italic text-gray-800 mb-0 md:mb-1 text-sm">
-                    <span class="block">Atlanta, GA 30305</span>
-                </address>
-                <a class="text-gray-800 text-sm" href="mailto:contact@cully.dev">contact@cully.dev</a>
-            </div>
+            <contact-vue />
         </header>
         <section>
             <h2 class="text-lg md:text-xl uppercase font-black text-orange-500 tracking-wider mt-2 mb-2">Objective Statement</h2>
@@ -18,116 +12,27 @@
                 To leverage technology and clear communication to lead, develop, deploy and teach elegant and effective solutions.
             </p>
         </section>
-        <section>
-            <h2 class="text-lg md:text-xl uppercase font-black text-orange-500 tracking-wider mt-2 mb-2">Skills</h2>
-            <ul class="list-disc list-outside">
-                <li>Lead and grow local and remote teams to meet deadlines with effective solutions</li>
-                <li>Excel at bringing real world solutions from abstract concepts</li>
-                <li>Ability to convey complex technological ideas in lay terms</li>
-                <li>Well versed in Ember.js, Vue.js, Laravel, MySQL & Github</li>
-                <li>Design Focused</li>
-            </ul>
-        </section>
-        <section>
-            <h2 class="text-lg md:text-xl uppercase font-black text-orange-500 tracking-wider mt-2 mb-2">Experience</h2>
-            <article class="mb-8 md:mb-4">
-                <h3 class="flex flex-col md:flex-row pb-1">
-                    <span class="font-bold text-gray-900 pr-1">Solutions Architect</span>
-                    <span class="pr-2 text-gray-700">Codesmith Development</span> 
-                    <span class="text-gray-600 font-light"> Atlanta, GA</span>
-                    <span class="flex-auto"></span>
-                    <span class="text-sm text-gray-600">October 2018 - Present</span>
-                </h3>
-                <ul class="text-gray-800 list-disc list-outside">
-                    <li class="mb-1 md:mb-0">Transitioned outsourced IT services into reliable in-house support and development teams</li>
-                    <li class="mb-1 md:mb-0">Lead local and remote teams to deliver dependable updates for legacy and current web applications using Jira <span class="text-gray-500 block text-sm md:inline md:text-base">(Scrum, Agile, Extreme Programming)</span></li>
-                    <li class="mb-1 md:mb-0">Unified code repositories in order to leverage automated testing & continuous integration <span class="text-gray-500 block text-sm md:inline md:text-base">(Github/Laravel Forge/Envoyer)</span> </li>
-                    <li class="mb-1 md:mb-0">Migrated application infrastructure from on premise to a distributed cloud infrastructure <span class="text-gray-500 block text-sm md:inline md:text-base">(AWS EC2)</span></li>
-                    <li class="mb-1 md:mb-0">Centralized databases to a highly reliable, replicated cluster with a redundant backup solution <span class="text-gray-500 block text-sm md:inline md:text-base">(AWS RDS Aurora/ Ottomatik)</span></li>
-                    <li class="mb-1 md:mb-0">Designed and deployed Amex credit card processing service <span class="text-gray-500">(Lumen, PHP 7.1, LNMP Stack)</span></li>
-                    <li class="mb-1 md:mb-0">Developed mobile friendly web application that enabled real-time maintenance of high profile enterprise customer’s systems. <span class="text-gray-500 block text-sm md:inline md:text-base">(Laravel, Vue.js, Webpack, Algolia, PHP 7.1)</span></li>
-                    <li class="mb-1 md:mb-0">Maintained legacy project management web app <span class="text-gray-500 block text-sm md:inline md:text-base">(Yii/jQuery, PHP 5.5)</span></li>
-                    <li class="mb-1 md:mb-0">As an intern, created training web app to consolidate the process of on-boarding new employees and track ongoing training of current employees which lead to IT Manager promotion <span class="text-gray-500">(Yii/Ember.js)</span></li>
-                </ul>
-            </article>
-            <article class="mb-8 md:mb-4">
-                <h3 class="flex flex-col md:flex-row pb-1">
-                    <span class="font-bold text-gray-900 pr-1">IT Manager </span>
-                    <span class="pr-2 text-gray-700">Connectivity Wireless</span> 
-                    <span class="text-gray-600 font-light"> Duluth, GA</span>
-                    <span class="flex-auto"></span>
-                    <span class="text-sm text-gray-600">June 2012 - September 2018</span>
-                </h3>
-                <ul class="text-gray-800 list-disc list-outside">
-                    <li class="mb-1 md:mb-0">Transitioned outsourced IT services into reliable in-house support and development teams</li>
-                    <li class="mb-1 md:mb-0">Lead local and remote teams to deliver dependable updates for legacy and current web applications using Jira <span class="text-gray-500 block text-sm md:inline md:text-base">(Scrum, Agile, Extreme Programming)</span></li>
-                    <li class="mb-1 md:mb-0">Unified code repositories in order to leverage automated testing & continuous integration <span class="text-gray-500 block text-sm md:inline md:text-base">(Github/Laravel Forge/Envoyer)</span> </li>
-                    <li class="mb-1 md:mb-0">Migrated application infrastructure from on premise to a distributed cloud infrastructure <span class="text-gray-500 block text-sm md:inline md:text-base">(AWS EC2)</span></li>
-                    <li class="mb-1 md:mb-0">Centralized databases to a highly reliable, replicated cluster with a redundant backup solution <span class="text-gray-500 block text-sm md:inline md:text-base">(AWS RDS Aurora/ Ottomatik)</span></li>
-                    <li class="mb-1 md:mb-0">Designed and deployed Amex credit card processing service <span class="text-gray-500">(Lumen, PHP 7.1, LNMP Stack)</span></li>
-                    <li class="mb-1 md:mb-0">Developed mobile friendly web application that enabled real-time maintenance of high profile enterprise customer’s systems. <span class="text-gray-500 block text-sm md:inline md:text-base">(Laravel, Vue.js, Webpack, Algolia, PHP 7.1)</span></li>
-                    <li class="mb-1 md:mb-0">Maintained legacy project management web app <span class="text-gray-500 block text-sm md:inline md:text-base">(Yii/jQuery, PHP 5.5)</span></li>
-                    <li class="mb-1 md:mb-0">As an intern, created training web app to consolidate the process of on-boarding new employees and track ongoing training of current employees which lead to IT Manager promotion <span class="text-gray-500">(Yii/Ember.js)</span></li>
-                </ul>
-            </article>
-            <article class="mb-8 md:mb-4">
-                <h3 class="flex flex-col md:flex-row  pb-1">
-                    <span class="font-bold text-gray-900 pr-1">Interactive Development Specialist </span>
-                    <span class="pr-2 text-gray-800">BlazeSports America</span> 
-                    <span class="text-gray-600"> Decatur, GA</span>
-                    <span class="flex-auto"></span>
-                    <span class="text-sm text-gray-600">August 2012 - February 2018</span>
-                </h3>
-                <ul class="text-gray-800 list-disc list-outside">
-                    <li>Promoted from intern to Interactive Development Specialist after rebuilding organization website <span class="text-gray-500">(PHP/Codeigniter)</span></li>
-                    <li>Designed and built Wordpress website for international communication of BlazeSports divisions worldwide</li>
-                    <li>Taught Disability Sports to Injured Veterans in order to continue living a healthy lifestyle</li>
-                    <li>Educated Business owners and employees on ways to accommodate persons with disabilities</li>
-                </ul>
-            </article>
-            <article class="mb-8 md:mb-2">
-                <h3 class="flex flex-col md:flex-row pb-1">
-                    <span class="font-bold text-gray-900 pr-1">IT Intern </span>
-                    <span class="pr-2 text-gray-800">GoodCents Solutions</span> 
-                    <span class="text-gray-600"> Loganville, GA</span>
-                    <span class="flex-auto"></span>
-                    <span class="text-sm text-gray-600">August 2008 - December 2008</span>
-                </h3>
-                <ul class="text-gray-800 list-disc list-outside">
-                    <li>Learned how to be a contributing member to the I.T. team.</li>
-                    <li>Designed and built Wordpress website for international communication of BlazeSports divisions worldwide</li>
-                    <li>Built a more efficient online training resource for CSR's <span class="text-gray-500">(.Net)</span></li>
-                    <li>Implemented web app showing real time updates to customer's GoodCents power saving unit <span class="text-gray-500">(.Net)</span></li>
-                </ul>
-            </article>
-        </section>
-        <section>
-            <h2 class="text-lg md:text-xl uppercase font-black text-orange-500 tracking-wider mt-2 mb-2">Education</h2>
-            <h3 class="flex flex-col md:flex-row mb-1 pb-1">
-                <span class="font-bold text-gray-900 pr-1">Southern Polytechnic and State University, </span>
-                <span class="pr-2 text-gray-800">Computer Science</span> 
-                <span class="text-gray-600">2009-2013</span>
-            </h3>
-            <small class="text-gray-700 italic mb-2">Completed credits towards a degree in Computer Science</small>
-            <ul class="list-disc list-outside mt-2">
-                <li>Computer Science I & II</li>
-                <li>Programming for Engineers</li>
-                <li>Data Structures</li>
-                <li>Introduction to Databases</li>
-                <li>Object Oriented Programming</li>
-                <li>Programming Principles I</li>
-            </ul>
-        </section>
-        
+        <skills-vue />
+        <experiences-vue />
+        <education-vue />
     </div>
 </template>
 
 <script>
-
+import SkillsVue from './components/Skills.vue';
+import ExperiencesVue from './components/Experiences.vue'
+import ContactVue from './components/Contact.vue';
+import EducationVue from './components/Education'
 
 export default {
   name: "app",
-  components: {}
+  components: {
+      SkillsVue,
+      ExperiencesVue,
+      ContactVue,
+      EducationVue
+      
+  }
 };
 </script>
 

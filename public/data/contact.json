@@ -1,0 +1,10 @@
+{
+    "contact": {
+        "firstName": "Cullison",
+        "lastName": "Mason",
+        "city": "Atlanta",
+        "state": "GA",
+        "zipCode": "30305",
+        "email": "contact@cully.dev"
+    }
+}
