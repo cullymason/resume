@@ -1,41 +1,62 @@
 <template>
-  <div class=" max-w-5xl pt-6 pb-6 mx-auto px-6 text-gray-800 subpixel-antialiased">
-        <header class="flex items-center">
-            <div class="flex-auto">
-               <span class="font-light tracking-wide text-gray-600 text-xl md:text-3xl uppercase">Resume</span>
-            </div>
-            <contact-vue />
-        </header>
-        <section>
-            <h2 class="text-lg md:text-xl uppercase font-black text-orange-500 tracking-wider mt-2 mb-2">Objective Statement</h2>
-            <p class="text-gray-800">
-                To leverage technology and clear communication to lead, develop, deploy and teach elegant and effective solutions.
-            </p>
-        </section>
-        <skills-vue />
-        <experiences-vue />
-        <education-vue />
-    </div>
+  <div>
+    <section class="flex flex-col items-center justify-center">
+      <article class="flex mx-auto w-full">
+        <div class="flex justify-end pt-6 flex-auto">
+          <span
+            class="uppercase text-sm font-bold text-gray-700 tracking-wide"
+          >January 2019 - Present</span>
+        </div>
+
+        <div>
+          <div class=" flex h-full w-8 mx-6">
+            <div class=" z-50 mt-6 w-5 h-5 border-4 bg-gray-400 border-red-500 rounded-full shadow"></div>
+            <div class="-ml-3 border-l-4 border-red-400"></div>
+          </div>
+          
+        </div>
+        <div class="flex-auto pt-6">
+          <h2 class="font-bold">Solutions Architect</h2>
+          <h3>CodeSmith Development</h3>
+          <ul>
+            <li>Item</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+        <section class="flex flex-col items-center justify-center">
+      <article class="flex mx-auto w-full">
+        <div class="flex justify-end pt-6 flex-auto">
+          <span
+            class="uppercase text-sm font-bold text-gray-700 tracking-wide"
+          >January 2019 - February 2020</span>
+        </div>
+
+        <div>
+          <div class=" flex w-8 h-full mx-6">
+            <div class=" z-50 mt-6 w-5 h-5 border-4 bg-gray-400 border-red-500 rounded-full shadow"></div>
+            <div class="-ml-3 border-l-4 border-red-400"></div>
+          </div>
+          
+        </div>
+        <div class="flex-auto pt-6">
+          <h2 class="font-bold">Solutions Architect</h2>
+          <h3>Connectivity Wireless Solutions</h3>
+          <ul>
+            <li>Item</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </div>
 </template>
 
 <script>
-import SkillsVue from './components/Skills.vue';
-import ExperiencesVue from './components/Experiences.vue'
-import ContactVue from './components/Contact.vue';
-import EducationVue from './components/Education'
-
 export default {
   name: "app",
-  components: {
-      SkillsVue,
-      ExperiencesVue,
-      ContactVue,
-      EducationVue
-      
-  }
+  components: {}
 };
 </script>
 
 <style>
-
 </style>
