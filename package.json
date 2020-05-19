@@ -11,7 +11,8 @@
     "@tailwindcss/ui": "^0.3.0",
     "axios": "^0.19.1",
     "core-js": "^3.6.4",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-headful": "^2.1.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",
