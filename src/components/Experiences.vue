@@ -7,7 +7,7 @@
                     <span class="pr-2 text-gray-700">{{ experience.company }}</span> 
                     <span class="text-gray-600 font-light"> {{experience.city}}, {{experience.state}}</span>
                     <span class="flex-auto"></span>
-                    <span class="text-sm text-gray-600">{{experience.startMonth}} {{experience.startYear}} - {{ experience.isCurrent ? "Present" : experience.endMonth+' '+experience.endYear }}</span>
+                    <span class="text-sm upper text-gray-400">{{experience.startMonth}} {{experience.startYear}} - {{ experience.isCurrent ? "Present" : experience.endMonth+' '+experience.endYear }}</span>
                 </h3>
                 <ul class="text-gray-800 list-disc list-outside max-w-full md:max-w-xl lg:max-w-3xl">
                     <li v-for="responsibility in experience.responsibilities" :key="responsibility" class="mb-2 ml-6">
