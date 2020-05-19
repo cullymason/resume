@@ -13,7 +13,7 @@
                     <li v-for="responsibility in experience.responsibilities" :key="responsibility" class="mb-2 ml-6">
                         <span>{{ responsibility.responsibility}} </span>
                         <ul v-if="responsibility.tags" class=" block hidden md:block">
-                            <li class="inline text-gray-500 font-bold tracking-wide uppercase text-xs bg-gray-100 mr-3 rounded px-2" v-for="tag in responsibility.tags" :key="tag">{{ tag }}</li>
+                            <li class="inline text-orange-400 font-bold tracking-wide uppercase text-xs bg-orange-100 mr-3 rounded px-2" v-for="tag in responsibility.tags" :key="tag">{{ tag }}</li>
                         </ul>
                     </li>
 

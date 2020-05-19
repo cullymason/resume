@@ -1,6 +1,6 @@
 <template>
   <div class="text-right">
-    <p class="font-bold mb-1 text-gray-900">{{contact.firstName}} {{contact.lastName}}</p>
+    <p class="font-bold mb-1 text-gray-900">{{contact.firstName}} "{{contact.nickName}}" {{contact.lastName}}</p>
     <address class="not-italic text-gray-800 mb-0 md:mb-1 text-sm">
       <span class="block">{{contact.city}}, {{contact.state}} {{contact.zipCode}}</span>
     </address>
