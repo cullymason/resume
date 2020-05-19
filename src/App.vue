@@ -4,8 +4,8 @@
             title="Cully Mason's Resume"
         />
         <header class="flex pb-6">
-            <div class="flex-auto">
-               <span class="font-light tracking-wide text-gray-400 text-xl md:text-3xl uppercase">Resume</span>
+            <div class="flex-auto flex items-end">
+               <span class="font-black justify-end tracking-wide text-gray-400 text-xl md:text-3xl uppercase">Resume</span>
             </div>
             <contact-vue />
         </header>
