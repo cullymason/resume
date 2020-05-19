@@ -13,70 +13,21 @@
                 "isCurrent": true,
                 "responsibilities": [
                     {
-                        "responsibility": "Transitioned outsourced IT services into reliable in-house support and development teams"
+                        "responsibility": "Project lead for dozens of development projects ranging from small to enterprise level businesses"
                     },
                     {
-                        "responsibility": "Lead local and remote teams to deliver dependable updates for legacy and current web applications using Jira",
-                        "tags": [
-                            "Scrum",
-                            "Agile",
-                            "Extreme Programming"
-                        ]
+                        "responsibility": "Shepherded the adoption of agile methodologies through the creation of user centric requirements gathering"
                     },
                     {
-                        "responsibility": "Unified code repositories in order to leverage automated testing & continuous integration",
-                        "tags": [
-                            "Github",
-                            "Laravel Forge",
-                            "Envoyer"
-                        ]
+                        "responsibility": "Shaped and implemented strategy for new hires to become effective contributors on a quicker and more effective basis"
                     },
                     {
-                        "responsibility": "Migrated application infrastructure from on premise to a distributed cloud infrastructure",
-                        "tags" : [
-                            "AWS EC2"
-                        ]
+                        "responsibility": "Project lead for dozens of development projects ranging from small to enterprise level businesses"
                     },
                     {
-                        "responsibility":"Centralized databases to a highly reliable, replicated cluster with a redundant backup solution",
-                        "tags":[
-                            "AWS RDS Aurora",
-                            "Ottomatik"
-                        ]
-                    },
-                    {
-                        "responsibility": "Designed and deployed Amex credit card processing service",
-                        "tags":[
-                            "Lumen",
-                            "PHP 7.1",
-                            "LNMP Stack"
-                        ]
-                    },
-                    {
-                        "responsibility": "Developed mobile friendly web application that enabled real-time maintenance of high profile enterprise customer’s systems.",
-                        "tags":[
-                            "Laravel",
-                            "Vue.js",
-                            "Webpack",
-                            "Algolia",
-                            "PHP 7.1"
-                        ]
-                    },
-                    {
-                        "responsibility": "Maintained legacy project management web app.",
-                        "tags": [
-                            "Yii",
-                            "Jquery UI",
-                            "PHP 5.5"
-                        ]
-                    },
-                    {
-                        "responsibility": "As an intern, created training web app to consolidate the process of on-boarding new employees and track ongoing training of current employees which lead to IT Manager promotion",
-                        "tags":[
-                            "Yii",
-                            "Ember.js"
-                        ]
+                        "responsibility": "Lead regularly scheduled code reviews to not only validate that submitted code met best practices but also to ensure that they properly aligned with customer requirements"
                     }
+                    
                 ]
             },
             {
