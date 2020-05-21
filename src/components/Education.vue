@@ -1,7 +1,7 @@
  <template>
   <section>
     <h2
-      class="text-lg md:text-xl uppercase font-black  text-gray-50 bg-orange-500 tracking-wider pl-2 py-1 mt-2 mb-2"
+      class="text-lg md:text-xl uppercase font-black  text-gray-50 bg-orange-500 border-l-8 border-orange-500 tracking-wider pl-2 py-1 mt-2 mb-2"
     >Education</h2>
     <article v-for="school in schools" :key="school">
       <h3 class="flex flex-col md:flex-row mb-1 pb-1">

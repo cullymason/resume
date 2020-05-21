@@ -10,8 +10,8 @@
             <contact-vue />
         </header>
         <section>
-            <h2 class="text-lg md:text-xl uppercase font-black  text-gray-50 bg-orange-500 tracking-wider pl-2 py-1 mt-2 mb-2">Objective Statement</h2>
-            <p class="text-gray-800 font-light py-4 ml-2">
+            <h2 class="text-lg md:text-xl uppercase font-black border-l-8 border-orange-500  text-white bg-orange-500 tracking-wider pl-2 py-1 mt-2 mb-2">Objective Statement</h2>
+            <p class="text-gray-800 py-4 ml-2">
                 To leverage technology and clear communication to lead, develop, deploy and teach elegant and effective solutions.
             </p>
         </section>

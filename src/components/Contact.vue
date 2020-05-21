@@ -45,7 +45,8 @@ export default {
         {
            return "mailto:"+this.contact.email;
         }
-    }
+    },
+
 };
 </script>
 
