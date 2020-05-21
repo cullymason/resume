@@ -1,5 +1,5 @@
 <template>
-  <div class=" max-w-5xl pt-6 pb-6 mx-auto px-6 text-gray-800 subpixel-antialiased">
+  <div class=" max-w-6xl px-0 md:px-12 pt-6 pb-12 mx-auto px-6 bg-white mt-0 md:my-8 text-gray-800 subpixel-antialiased shadow-lg">
       <vue-headful
             title="Cully Mason's Resume"
         />
