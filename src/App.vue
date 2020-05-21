@@ -5,13 +5,13 @@
         />
         <header class="flex pb-6">
             <div class="flex-auto flex items-end">
-               <span class="font-black justify-end tracking-wide text-gray-400 text-xl md:text-3xl uppercase">Resume</span>
+               <span class="font-black justify-end content-end tracking-wide text-gray-400 text-xl md:text-3xl uppercase">Resume</span>
             </div>
             <contact-vue />
         </header>
         <section>
             <h2 class="text-lg md:text-xl uppercase font-black  text-gray-50 bg-orange-500 tracking-wider pl-2 py-1 mt-2 mb-2">Objective Statement</h2>
-            <p class="text-gray-800 font-light py-4 px-8">
+            <p class="text-gray-800 font-light py-4 ml-2">
                 To leverage technology and clear communication to lead, develop, deploy and teach elegant and effective solutions.
             </p>
         </section>

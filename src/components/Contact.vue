@@ -33,11 +33,11 @@
 </template>
 
 <script>
-import axios from 'axios';
+import contact from "../data/contact.json"
 export default {
     data() {
         return {
-            contact: {}
+            contact: contact.contact
         }
     },
     computed: {
@@ -45,11 +45,6 @@ export default {
         {
            return "mailto:"+this.contact.email;
         }
-    },
-    async mounted()
-    {
-        let contact = await axios.get('/data/contact.json');
-        this.contact = contact.data.contact;
     }
 };
 </script>

@@ -22,16 +22,12 @@
 </template>
  
  <script>
-import axios from "axios";
+import education from "../data/education.json"
 export default {
   data() {
     return {
-      schools: []
+      schools: education.schools
     };
-  },
-  async mounted() {
-    let education = await axios.get("/data/education.json");
-    this.schools = education.data.schools;
   }
 };
 </script>
