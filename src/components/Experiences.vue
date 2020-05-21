@@ -2,7 +2,7 @@
     <section>
             <h2 class="text-lg md:text-xl uppercase font-black  text-gray-50 bg-orange-500 border-l-8 border-orange-500 tracking-wider pl-2 py-1 mt-2 mb-4">Experience</h2>
             <article v-for="experience in experiences" :key="experience" class="mb-8 md:mb-1">
-                <h3 class="flex items-start justify-between items-center flex-col md:flex-row py-1 mb-2 pl-2 border-l-8 border-orange-500">
+                <h3 class="flex items-start justify-between flex-col md:flex-row py-1 mb-2 pl-2 border-l-8 border-orange-500">
                     <div class="flex flex-col">
                         <span class="font-bold text-lg text-orange-600 pr-1 border-gray-300">{{ experience.title }}</span>
                         <span class="pr-2 text-xs uppercase tracking-wide font-bold text-gray-700">{{ experience.company }}</span> 
