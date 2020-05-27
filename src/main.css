@@ -4,3 +4,9 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+@media print {
+    .page_break {
+        page-break-before: always;
+    }
+  }

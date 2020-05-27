@@ -5,7 +5,7 @@
       <span class="block">{{contact.city}}, {{contact.state}} {{contact.zipCode}}</span>
     </address>
     <a class="text-orange-600 text-sm" :href="emailURL">{{contact.email}}</a>
-    <ul class="flex justify-end text-gray-600 space-x-2 pt-2">
+    <ul class="flex justify-end text-gray-600 space-x-2 pt-2 print:hidden">
       <li>
         <a class="hover:text-gray-800" href="https://github.com/cullymason">
           <svg class="w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
